@@ -364,5 +364,20 @@ namespace WindowsFormsApplication9
         {
 
         }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void versionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("熱真空試験CW 解析ソフト\nver. 2.01\n(C)2016 AOBA GS All Rights Reserved", "Version",MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
